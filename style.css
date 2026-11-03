@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#263238}
+header{background:#142b45;color:white;padding:22px 5%;}header h1{margin:0 0 12px}
+nav a{color:#f4d58d;text-decoration:none;margin-right:18px;font-weight:bold}nav a:hover{text-decoration:underline}
+main{max-width:1050px;margin:28px auto;padding:24px;background:white;border-radius:10px;box-shadow:0 2px 12px #00000012}
+footer{text-align:center;padding:18px;color:#667}
+h2{color:#142b45}.card{background:#f7f9fb;padding:18px;border-radius:8px;margin:12px 0}
+form{max-width:520px}label{display:block;margin:12px 0 5px;font-weight:bold}
+input,select,textarea{width:100%;padding:11px;border:1px solid #ccd3da;border-radius:5px}
+button,.button{display:inline-block;background:#b88732;color:white;border:0;padding:11px 17px;border-radius:5px;text-decoration:none;cursor:pointer;margin-top:12px}
+button:hover,.button:hover{background:#91651f}table{width:100%;border-collapse:collapse;margin-top:15px}
+th,td{padding:11px;border-bottom:1px solid #ddd;text-align:left}th{background:#edf1f5}
+.error{color:#b00020}.success{color:#08783e}.pagination a{padding:7px 10px;border:1px solid #ccc;margin-right:5px;text-decoration:none}
+.invoice{border:1px solid #ddd;padding:22px;max-width:750px}.muted{color:#667}
+@media(max-width:600px){main{margin:10px;padding:15px}nav a{display:inline-block;margin:7px 10px 7px 0}table{font-size:13px}}
+
+.hero{background:linear-gradient(120deg,#142b45,#28516d);color:white;padding:42px;border-radius:10px;margin-bottom:30px}.hero h2{color:white;font-size:34px;margin:8px 0}.hero p{max-width:650px;line-height:1.6}.eyebrow{letter-spacing:2px;font-size:12px;font-weight:bold;color:#f4d58d}.button.secondary{background:transparent;border:1px solid #f4d58d;color:#f4d58d}.benefits{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.benefits .card{margin:0}.benefits h3{color:#142b45}#employeeFields{display:none}
